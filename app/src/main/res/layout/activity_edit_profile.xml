@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Top Bar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:padding="4dp">
+
+            <ImageView
+                android:id="@+id/btnBack"
+                android:src="@drawable/ic_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/back_button"
+                app:tint="#000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/headerTitle"
+                android:text="@string/worker_title"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_toEndOf="@id/btnBack"
+                android:layout_marginStart="8dp"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+
+        <!-- Avatar -->
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_profile"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="12dp"
+            android:contentDescription="@string/worker_image"/>
+
+        <ImageView
+            android:id="@+id/cameraIcon"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/ic_menu_camera"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/bg_white_card"
+            android:padding="6dp"
+            android:contentDescription="Camera Icon"/>
+
+        <!-- Name -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ನಿಮ್ಮ ಹೆಸರು"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#5A5A5A"
+            android:layout_marginTop="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_card"
+            android:padding="8dp">
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="name"
+                android:hint="Lakshmi"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <!-- Phone -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ಫೋನ್ ಸಂಖ್ಯೆ"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#5A5A5A"
+            android:layout_marginTop="12dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_white_card"
+            android:padding="8dp">
+            <EditText
+                android:id="@+id/editPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints="phone"
+                android:hint="9876543210"
+                android:inputType="phone"
+                android:background="@android:color/transparent"/>
+        </LinearLayout>
+
+        <!-- Location + Daily Wage -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:baselineAligned="false"
+            android:layout_marginTop="12dp">
+
+            <!-- Location -->
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_white_card"
+                android:padding="8dp"
+                android:layout_marginEnd="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/ic_location"
+                        app:tint="#5A5A5A"
+                        android:contentDescription="@string/location_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ನಿಮ್ಮ ಸ್ಥಳೀಯ"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#5A5A5A"/>
+                </LinearLayout>
+
+                <Spinner
+                    android:id="@+id/spinnerLocation"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"/>
+            </LinearLayout>
+
+            <!-- Daily Wage -->
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/bg_white_card"
+                android:padding="8dp"
+                android:layout_marginStart="6dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        app:tint="#5A5A5A"
+                        android:contentDescription="@string/rupee_icon"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ದಿನದ ವೇತನ (ರೂ.)"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:textColor="#5A5A5A"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/editRate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="₹350"
+                    android:inputType="number"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Work Type -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ಕೆಲಸದ ವಿಧ"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#5A5A5A"
+            android:layout_marginTop="16dp"/>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2"
+            android:layout_marginTop="8dp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCleaning"
+                android:text="ಮನೆಕೆಲಸ / ಕ್ಲೀನಿಂಗ್"
+                android:background="@drawable/bg_button_selector"
+                android:layout_margin="4dp"/>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnGardening"
+                android:layout_width="wrap_content"
+                android:layout_row="0"
+                android:layout_margin="4dp"
+                android:background="@drawable/bg_button_selector"
+                android:text="ಟೋಟಾನಿಕ್"
+                tools:ignore="GridLayout" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnCooking"
+                android:text="ಅಡುಗೆ"
+                android:background="@drawable/bg_button_selector"
+                android:layout_margin="4dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnStitching"
+                android:text="ಹೆಣೆಯುವುದು"
+                android:background="@drawable/bg_button_selector"
+                android:layout_margin="4dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnElectrician"
+                android:text="ಎಲೆಕ್ಟ್ರಿಷಿಯನ್"
+                android:background="@drawable/bg_button_selector"
+                android:layout_margin="4dp"/>
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnOther"
+                android:text="ಇತರ ಕೆಲಸಗಳು"
+                android:background="@drawable/bg_button_selector"
+                android:layout_margin="4dp"/>
+        </GridLayout>
+
+        <!-- Save Button in Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="12dp">
+
+            <Button
+                android:id="@+id/btnSaveProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ಪ್ರೊಫೈಲ್ ಉಳಿಸಿ"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="20dp"
+                android:padding="12dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

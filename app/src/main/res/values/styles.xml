@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="chipStyle">
+    <item name="android:layout_marginEnd">8dp</item>
+    <item name="android:background">@drawable/chip_bg</item>
+    <item name="android:textColor">@color/black</item>
+    <item name="android:padding">10dp</item>
+</style>
+    <style name="ChipButton">
+        <item name="android:backgroundTint">#EDECE6</item>
+        <item name="android:textColor">#4E4A2B</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:paddingHorizontal">16dp</item>
+        <item name="android:paddingVertical">6dp</item>
+    </style>
+
+    <style name="ChipButtonSelected" parent="ChipButton">
+        <item name="android:backgroundTint">#4E4A2B</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+</resources>

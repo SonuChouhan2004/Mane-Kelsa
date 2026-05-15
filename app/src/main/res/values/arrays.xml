@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="locations">
+            <item>ಬಸವನಗುಡಿ</item>
+            <item>ಬನಶಂಕರಿ</item>
+            <item>ಮಹದೇವಪುರ</item>
+            <item>ಯಲಹಂಕ</item>
+            <item>ರಾಜಾಜಿನಗರ</item>
+            <item>ನವಿ ಬದ್ರಾಪುರ</item>
+            <item>ಗಾಂಧಿ ನಗರ</item>
+            <item>ವಿಜಯ ನಗರ</item>
+            <item>ಶಾಂತಿ ನಗರ</item>
+        </string-array>
+    </resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "846730522892",
+    "firebase_url": "https://manekelsa-b8ff0-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "manekelsa-b8ff0",
+    "storage_bucket": "manekelsa-b8ff0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846730522892:android:b88ee31dd2ee71d7a41929",
+        "android_client_info": {
+          "package_name": "com.example.manekelsa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpR6ydfgvzSiXGIcwPk47cLm8SQzmv7Pk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

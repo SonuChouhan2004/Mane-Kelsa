@@ -1,0 +1,56 @@
+<resources>
+    <string name="title_activity_worker">Worker Screen</string>
+    <string name="title_activity_owner">Owner Screen</string>
+    <!-- App Title -->
+    <string name="app_name">ಮನೆ-ಕೆಲಸ</string>
+    <string name="app_name_kannada">ಮನೆ-ಕೆಲಸ</string>
+    <string name="app_subtitle_kannada">ಸ್ವಚ್ಛೀಯ ಕೆಲಸಗಾರರ ಡೈರೆಕ್ಟರಿ</string>
+
+    <!-- Owner Section -->
+    <string name="owner_title">ನಾನು ಮಾಲೀಕ</string>
+    <string name="owner_subtitle">ನನಗೆ ಕೆಲಸಗಾರ ಜನ ಬೇಕು</string>
+    <string name="owner_icon">ಮಾಲೀಕರ ಐಕಾನ್</string>
+
+    <!-- Worker Section -->
+    <string name="worker_title">ನಾನು ಕೆಲಸಗಾರ</string>
+    <string name="worker_subtitle">ನಾನು ಕೆಲಸ ಮಾಡಬೇಕು</string>
+    <string name="worker_icon">ಕೆಲಸಗಾರರ ಐಕಾನ್</string>
+
+    <!-- Search -->
+    <string name="search_hint">ಹೆಸರು, ಕೆಲಸ ಹುಡುಕಿ&#8230;</string>
+
+
+    <!-- Worker Screen -->
+    <string name="not_available_today">ಇಂದು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="edit_profile">ಪ್ರೊಫೈಲ್ ತಿದ್ದು</string>
+    <string name="availability_off">ಇಂದು ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="availability_on">ಇಂದು ಲಭ್ಯವಿದ್ದೇನೆ</string>
+    <string name="availability_hint">ಕೆಲಸಕ್ಕೆ ಲಭ್ಯರಿರುವ ಮೊದಲು ಸ್ವಿಚ್ ಓನ್ ಮಾಡಿ</string>
+    <string name="likes_label">ಮೆಚ್ಚುಗೆ</string>
+    <string name="locality">ಬಸವನಗುಡಿ</string>
+    <string name="locality_label">ಪ್ರದೇಶ</string>
+    <string name="back_button">ಹಿಂದೆ ಹೋಗಿ</string>
+    <string name="location_icon">Location icon</string>
+    <string name="rupee_icon">Rupee icon</string>
+
+
+    <!-- Worker Info -->
+    <string name="task_count">ಕೆಲಸಗಳು</string>
+    <string name="locality_basavanagudi">ಬಸವನಗುಡಿ</string>
+    <string name="availability_hint_on">ಮಾಲೀಕರು ನಿಮಗೆ ಕೆಲಸ ಕರೆ ಮಾಡಬಹುದು</string>
+
+    <string name="search_icon">Search icon</string>
+    <string name="worker_image">Worker profile image</string>
+    <string name="worker_name">Name</string>
+    <string name="worker_job">Work</string>
+    <string name="worker_price">₹ 300</string>
+    <string name="worker_rating">⭐ 40</string>
+    <string name="call_button">📞 ಕರೆ ಮಾಡಿ</string>
+    <string name="worker_status">ಲಭ್ಯವಿದೆ</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+
+    <string name="scroll_left">ಎಡಕ್ಕೆ ಸರಿಸಿ</string>
+    <string name="scroll_right">ಬಲಕ್ಕೆ ಸರಿಸಿ</string>
+
+    <string name="like_icon">Like icon</string>
+</resources>
